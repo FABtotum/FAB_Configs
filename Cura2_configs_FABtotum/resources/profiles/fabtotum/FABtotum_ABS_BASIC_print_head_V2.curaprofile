@@ -22,9 +22,9 @@ material_print_temperature = 235
 speed_wall_0 = 70
 speed_layer_0 = 25
 speed_infill = 75
-retraction_amount = 4
+retraction_amount = 2.5
 speed_topbottom = 75
 speed_print = 75
-retraction_speed = 12
+retraction_speed = 24
 skirt_line_count = 6
 
