@@ -1,0 +1,3 @@
+Move the resources folder to your cura folder and overwrite.
+The FABtotum machine profile will be added along with all the other assets and printing profiles.
+(e.g "C:\Program Files\Cura 2.X\" under windows)
