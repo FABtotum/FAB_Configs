@@ -28,14 +28,9 @@
 		"machine_center_is_zero": { "default_value": false },
 		"machine_heated_bed": {	"default_value": true	},
         "machine_nozzle_size": { "default_value": 0.4 },
-        "machine_head_shape_min_x": { "default_value": 75 },
-        "machine_head_shape_min_y": { "default_value": 18 },
-        "machine_head_shape_max_x": { "default_value": 18 },
-        "machine_head_shape_max_y": { "default_value": 35 },
+		"machine_head_with_fans_polygon": { "default_value": [[-75, 35], [-75, -18], [18, 35], [18, -18]] },
         "gantry_height": { "default_value": 55 },
-        "machine_nozzle_offset_x": { "default_value": 0.0 },
-        "machine_nozzle_offset_y": { "default_value": 0.0 },
-        "machine_gcode_flavor": { "default_value": "RepRap (Marlin/Sprinter)" },
+		"machine_gcode_flavor": { "default_value": "RepRap (Marlin/Sprinter)" },
 		"material_diameter": { "default_value": 1.75 }
 	}
 }
