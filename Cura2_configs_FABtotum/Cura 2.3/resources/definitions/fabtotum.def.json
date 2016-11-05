@@ -31,6 +31,18 @@
 		"machine_head_with_fans_polygon": { "default_value": [[-75, 35], [-75, -18], [18, 35], [18, -18]] },
         "gantry_height": { "default_value": 55 },
 		"machine_gcode_flavor": { "default_value": "RepRap (Marlin/Sprinter)" },
+		"machine_max_feedrate_x": { "default_value": 550 },
+		"machine_max_feedrate_y": { "default_value": 550 },
+		"machine_max_feedrate_z": { "default_value": 15 },
+		"machine_max_feedrate_e": { "default_value": 12 },
+		"machine_max_acceleration_x": { "default_value": 10000 },
+		"machine_max_acceleration_y": { "default_value": 10000 },
+		"machine_max_acceleration_z": { "default_value": 50 },
+		"machine_max_acceleration_e": { "default_value": 100 },
+		"machine_acceleration": { "default_value": 4000 },
+        "machine_max_jerk_xy": { "default_value": 25.0 },
+        "machine_max_jerk_z": { "default_value": 0.4 },
+        "machine_max_jerk_e": { "default_value": 1.0 },
 		"material_diameter": { "default_value": 1.75 }
 	}
 }
