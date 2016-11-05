@@ -20,7 +20,7 @@
             "default_value": "G21 ;Metric value\nG90 ;absolute positioning\nM82 ;set extruder to absolute mode\nM201 E100;\nM204 S1000 T80;\nM205 E5 ;\nG4 S1 ;1 millisecond pause to buffer the bep bep \nM728 ;FAB bep bep (start the print, go check the oozing and skirt lines adesion) \nG4 S1 ;1 second pause to reach the printer (run fast)\nG1 X10 Y10 Z70.0 F{travel_speed} ;move to oozing point \nG92 E0 ;zero the extruded length \nG1 F200 E50  ;slowly extrude 50mm of filament to clean the nozzle and build up extrusion pressure \nG92 E0 ;zero the extruded length again \nG1 F{travel_speed} ;Set travel speed \n;print"
         },
         "machine_end_gcode": {
-            "default_value": "M104 S0 ;extruder heater off\nM140 S0 ;heated bed heater off (if you have it)\nG91 ;relative positioning\nG1 E-1 F300  ;retract the filament a bit before lifting the nozzle, to release some of the pressure\nG1 Z+0.5 E-5 X-20 Y-20 F9000 ;move Z up a bit and retract filament even more\n;end of the print\nM84 ;steppers off\nG90 ;absolute positioning\nM728 ;FAB bep bep (end print)\n;next line is cura profile, if you want to check settings from an old g-code\n;{profile_string}"
+            "default_value": "M104 S0 ;extruder heater off\nM140 S0 ;heated bed heater off (if you have it)\nG91 ;relative positioning\nG1 E-1 F300  ;retract the filament a bit before lifting the nozzle, to release some of the pressure\nG1 Z+0.5 E-5 X-20 Y-20 F9000 ;move Z up a bit and retract filament even more\n;end of the print\nM84 ;steppers off\nG90 ;absolute positioning\nM728 ;FAB bep bep (end print)"
         },
 		"machine_width": { "default_value": 214 },
         "machine_height": { "default_value": 234 },
