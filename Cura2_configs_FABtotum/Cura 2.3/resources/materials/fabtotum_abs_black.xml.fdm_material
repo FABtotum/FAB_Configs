@@ -15,11 +15,10 @@
     <diameter>1.75</diameter>
   </properties>
   <settings>
-    <setting key="print cooling">100.0</setting>
     <setting key="standby temperature">200.0</setting>
-    <setting key="retraction amount">2.5</setting>
-    <setting key="heated bed temperature">90.0</setting>
-    <setting key="retraction speed">20.0</setting>
     <setting key="print temperature">235.0</setting>
+    <setting key="heated bed temperature">90.0</setting>
+    <setting key="retraction amount">2.5</setting>
+    <setting key="retraction speed">20.0</setting>
   </settings>
 </fdmmaterial>
