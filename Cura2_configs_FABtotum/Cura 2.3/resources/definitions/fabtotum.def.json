@@ -13,7 +13,7 @@
     "icon": "fabtotum_platform.png",
     "has_variants": true,
     "variants_name": "Head",
-    "preferred_variant": "*v2*",
+    "preferred_variant": "*0.4*",
     "supports_usb_connection": false
  },
 
