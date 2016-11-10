@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fdmmaterial xmlns="http://www.ultimaker.com/material">
+  <metadata>
+    <name>
+      <brand>FABtotum</brand>
+      <material>PLA</material>
+      <color>Carbon Black</color>
+    </name>
+    <color_code>#000000</color_code>
+    <GUID>506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9</GUID>
+    <version>1</version>
+  </metadata>
+  <properties>
+    <diameter>1.75</diameter>
+    <density>1.24</density>
+  </properties>
+  <settings>
+    <setting key="print temperature">185.0</setting>
+    <setting key="standby temperature">175.0</setting>
+    <setting key="heated bed temperature">50.0</setting>
+    <setting key="retraction amount">2.5</setting>
+    <setting key="retraction speed">24.0</setting>
+  </settings>
+</fdmmaterial>
