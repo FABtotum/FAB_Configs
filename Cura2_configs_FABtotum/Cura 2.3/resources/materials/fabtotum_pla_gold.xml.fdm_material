@@ -15,9 +15,9 @@
     <density>1.24</density>
   </properties>
   <settings>
-    <setting key="standby temperature">175.0</setting>
-    <setting key="print temperature">185.0</setting>
-    <setting key="heated bed temperature">50.0</setting>
+    <setting key="standby temperature">190.0</setting>
+    <setting key="print temperature">200.0</setting>
+    <setting key="heated bed temperature">60.0</setting>
     <setting key="retraction amount">2.5</setting>
     <setting key="retraction speed">24.0</setting>
   </settings>

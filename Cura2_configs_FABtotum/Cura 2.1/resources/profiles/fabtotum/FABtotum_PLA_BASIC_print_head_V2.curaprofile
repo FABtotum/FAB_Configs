@@ -7,7 +7,7 @@ machine_type = fabtotum
 [settings]
 skirt_line_count = 6
 retraction_speed = 20
-material_print_temperature = 185
+material_print_temperature = 200
 brim_line_count = 10
 infill_sparse_density = 24
 retraction_amount = 2.5

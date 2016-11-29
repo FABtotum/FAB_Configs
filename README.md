@@ -1,5 +1,7 @@
-# FAB_Configs
+﻿# FAB_Configs
 Configurations for the FABtotum and Slicers softwares.
+
+===IMPORTANT: Updated for FABLIN FW 0.96.1====
 
 troubleshooting:
 Use these profiles at your own risk.
