@@ -6,9 +6,7 @@
       <material>Special PLA</material>
       <color>Wood</color>
     </name>
-    <GUID>506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9</GUID>
     <color_code>#966f33</color_code>
-    <version>1</version>
   </metadata>
   <properties>
     <density>1.24</density>

@@ -6,9 +6,7 @@
       <material>ABS</material>
       <color>White</color>
     </name>
-    <GUID>506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9</GUID>
     <color_code>#ffffff</color_code>
-    <version>1</version>
   </metadata>
   <properties>
     <density>1.1</density>
