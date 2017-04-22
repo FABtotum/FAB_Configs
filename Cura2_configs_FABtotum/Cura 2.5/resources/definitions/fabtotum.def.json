@@ -46,6 +46,9 @@
     "machine_max_jerk_xy": { "default_value": 25.0 },
     "machine_max_jerk_z": { "default_value": 0.4 },
     "machine_max_jerk_e": { "default_value": 1.0 },
-    "material_diameter": { "default_value": 1.75 }
+    "material_diameter": { "default_value": 1.75 },
+	"retraction_count_max": { "value": 10 },
+    "retraction_extrusion_window": { "value": 2.5 },	
+	"retraction_min_travel": { "value": 0.1 }	
   }
 }
