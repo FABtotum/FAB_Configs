@@ -1,3 +1,5 @@
+Download and install latest version of Cura (for 32bit latest version is Cura 2.3.1)
+Remove the check from "Run Cura" on the last installation page.
 Move the resources folder to your cura folder and overwrite.
 The FABtotum machine profile will be added along with all the other assets and printing profiles.
 (e.g "C:\Program Files\Cura 2.X\" under windows)
