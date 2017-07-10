@@ -4,10 +4,10 @@
     <name>
       <brand>FABtotum</brand>
       <material>PLA</material>
-      <color>Sun Yellow</color>
+      <color>Magenta</color>
     </name>
-    <color_code>#ffff00</color_code>
-	<description>FABtotum PLA yellow profile.</description>
+    <color_code>#E600E6</color_code>
+	<description>FABtotum PLA magenta profile.</description>
     <adhesion_info>Recommended nozzle temperature: 190...200C, bed temperature: 40...50C, layer fan: on, adhesion type: skirt.</adhesion_info>
   </metadata>
   <properties>
