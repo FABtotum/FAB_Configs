@@ -1,0 +1,50 @@
+version: 2
+name: FAB Palette
+preset: custom
+gpxProfile: false
+inputs:
+  - gcode
+engine: marlin
+postprocessing: false
+volumetric: false
+independentExtruderAxes: false
+filamentDiameter: 1.75
+nozzleDiameter: 0.4
+extruderCount: 1
+printExtruder: false
+printBed:
+  circular: false
+  x: 214
+  'y': 234
+  diameter: 0
+  origin: bottomLeft
+  originOffsets:
+    x: 0
+    'y': 0
+bowdenTube: false
+transitions:
+  method: 1
+  purgeLength: 130
+  initialPurgeLength: 130
+  purgeTarget: 0.4
+  towers:
+    minDensity: 0.05
+    minBottomDensity: 0.8
+    maxDensity: 1
+    perimeterSpeedMultiplier: 0.5
+    forceBottomPerimeter: true
+  sideTransitions:
+    purgeSpeed: 4
+    safeZones:
+      north: 0
+      south: 0
+      west: 0
+      east: 0
+pings:
+  jogPauses: false
+  retraction: auto
+  mechanicalPingGCode: ''
+calibration:
+  loadingOffset: 21200
+  printValue: 89128
+  calibrationGCodeLength: 2908.29041
