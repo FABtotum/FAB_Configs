@@ -24,15 +24,15 @@ printBed:
 bowdenTube: false
 transitions:
   method: 1
-  purgeLength: 130
-  initialPurgeLength: 130
-  purgeTarget: 0.4
+  purgeLength: 80
+  initialPurgeLength: 80
+  purgeTarget: 0.2
   towers:
     minDensity: 0.05
-    minBottomDensity: 0.8
+    minBottomDensity: 0.05
     maxDensity: 1
-    perimeterSpeedMultiplier: 0.5
-    forceBottomPerimeter: true
+    perimeterSpeedMultiplier: 1
+    forceBottomPerimeter: false
   sideTransitions:
     purgeSpeed: 4
     safeZones:
@@ -45,6 +45,6 @@ pings:
   retraction: auto
   mechanicalPingGCode: ''
 calibration:
-  loadingOffset: 21200
-  printValue: 89128
+  loadingOffset: 21300
+  printValue: 85533
   calibrationGCodeLength: 2908.29041
